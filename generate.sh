@@ -3,7 +3,6 @@ set -e
 cd "$(dirname "$0")"
 source util/vars.sh
 
-
 rm -f Dockerfile
 
 layername() {

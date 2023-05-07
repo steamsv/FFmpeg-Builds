@@ -3,7 +3,6 @@ set -xe
 cd "$(dirname "$0")"
 source util/vars.sh
 
-
 TMPCFG="$(mktemp --suffix=.toml)"
 cat <<EOF >"$TMPCFG"
 [worker.oci]
