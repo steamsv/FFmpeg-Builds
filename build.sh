@@ -4,6 +4,7 @@ shopt -s globstar
 cd "$(dirname "$0")"
 source util/vars.sh
 
+
 get_output() {
     (
         SELF="$1"
